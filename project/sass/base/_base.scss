@@ -1,0 +1,21 @@
+body {
+	font-family:'Georgia', sans-serif;
+	font-size:14px;
+	color:#666;
+	line-height:1.5em;
+	background:#f4f4f4;
+}
+
+#container {
+	width:960px;
+	margin:20px auto;
+	overflow:auto;
+	border:#ccc solid 1px;
+	background: #fff;
+	@include border-radius(20px);
+}
+
+section{
+	min-height: 200px;
+}
+

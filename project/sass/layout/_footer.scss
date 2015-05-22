@@ -1,0 +1,15 @@
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: $primary-color;
+	color: #fff;
+	&.special{
+		background: yellow;
+	}
+	body.special &{
+		background: lime;
+	}
+	p {
+		color: purple;
+	}
+}
